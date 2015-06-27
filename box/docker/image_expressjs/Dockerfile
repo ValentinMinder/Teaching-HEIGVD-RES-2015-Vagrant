@@ -1,12 +1,12 @@
 #
 # This image is based on another image
 #
-FROM dockerfile/nodejs:latest
+FROM google/nodejs:latest
 
 #
 # For information: who maintains this Dockerfile?
 #
-MAINTAINER Olivier Liechti
+MAINTAINER Valentin Minder
 
 #
 # When we create the image, we copy files from the host into

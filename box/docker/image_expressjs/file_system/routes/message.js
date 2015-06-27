@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
   var payload = {
 	"message" : "hello world",
-	"author" : "olivier liechti"
+	"author" : "Valentin Minder"
   }
 
   if (req.accepts('text/html', 'text/plain', 'application/json') === 'text/plain') {
